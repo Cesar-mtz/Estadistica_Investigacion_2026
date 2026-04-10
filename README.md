@@ -222,7 +222,6 @@ datos$recta <- 74.1151 - 1.3537 * datos$Produccion_trigo
 datos$residuales <- datos$Precio_harina - datos$recta
 datos
 
-
 #estimar residuales
 sum(datos$residuales^2)
 
@@ -243,3 +242,95 @@ plot(datos$Produccion_trigo, datos$Precio_harina,
      pch = 19,
       cex = 1.2)
 abline(fit.lm, col = "blue")
+
+
+**Sesión 5**: Fecha 09/03/26
+
+# Contenido del curso
+
++ Comparación de medias
++ Tipos de muestra: dependiente e independiente
++  Aplicar prueba Tstudent de una muestra
+
+# EJEMPLO CLASE #################################################
+
+# Importar datos --------------------------------------------------------
+
+# Función read.csv
+
+IE <-read.csv("03_Datos/vivero.csv", header = T)
+IE$Tratamiento <-as.factor(IE$Tratamiento)
+
+View(IE)
+
+tapply(IE$IE, IE$Tratamiento, mean)
+tapply(IE$IE, IE$Tratamiento, sd)
+tapply(IE$IE, IE$Tratamiento, var)
+
+
+# Diseño de gráfico -------------------------------------------------------
+
+
+boxplot(IE$IE)
+
+boxplot(IE$IE ~ IE$Tratamiento,
+        col = "lightblue",
+        xlab = "Fertilizante",
+        ylab = "IE",
+        main = "Vivero FCF",
+        ylim = c(0.4, 1.2))
+#~ significa en función de o sea cuando tienes varias variables
+#para evitar problemas en compilación tener cuidado las carpetas donde se
+#trabaja por lo que hay que guardarla de nuevo y ahora si se compila
+
+# Pruebas de normalida "Saphiro y Kormogorof" ----------------------------
+
+shapiro.test(IE$IE)
+
+# Homogeneidad de varianza ------------------------------------------------
+
+bartlett.test(IE$IE ~ IE$Tratamiento)
+
+
+hist(IE$IE,
+     col = "red",
+     ylim = c(0,12),
+     main = "",
+     ylab ="Frecuencia",
+     xlab = "Variable IE")
+###############################################################################
+# pruebas para independientes
+t.test(IE$IE ~ IE$Tratamiento, var.equal =T)
+
+
+#INTERVAL DE CONFIANZA: DONDE EXISTE UN VALOR ESTA DENTRO DEL RANGO PARA SABER
+#SI ES NORMAL O NO
+
+#var.equal =T (no importa si alguno de tus datos es mayor o no  que el otro)
+
+
+t.test(IE$IE ~ IE$Tratamiento, var.equal =T,
+       alternative= "greater")
+#con este comando es para 1 sola cola cuando ya estas diciendo en tu hipotesis
+#mayor que
+
+
+t.test(IE$IE ~ IE$Tratamiento, var.equal =T,
+       alternative= "less")
+
+#diferencia greater y less (depende de como lo vayas a plantear en la hipotesis)
+##############################################################################
+
+#Prueba de T una muestra
+mean(IE$IE)
+
+
+t.test(mu = 0.85, IE$IE)
+#mu media teoretica
+
+#prueba dependiente
+Ctrl <- subset(IE$IE, IE$Tratamiento == "Ctrl")
+Fert <- subset(IE$IE, IE$Tratamiento != "Ctrl")
+
+t.test(Ctrl, Fert, paired = T)
+
