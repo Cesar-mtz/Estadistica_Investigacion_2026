@@ -243,6 +243,7 @@ plot(datos$Produccion_trigo, datos$Precio_harina,
       cex = 1.2)
 abline(fit.lm, col = "blue")
 
+####################################################################
 
 **Sesión 5**: Fecha 09/03/26
 
@@ -333,4 +334,3 @@ Ctrl <- subset(IE$IE, IE$Tratamiento == "Ctrl")
 Fert <- subset(IE$IE, IE$Tratamiento != "Ctrl")
 
 t.test(Ctrl, Fert, paired = T)
-
