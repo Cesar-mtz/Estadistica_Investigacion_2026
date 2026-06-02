@@ -25,7 +25,17 @@
 + Aplicar prueba de normalidad de datos Saphiro
 + Aplicar prueba de homogeneidad de varianza Bartlett
 
-#~ significa en función de o sea cuando tienes varias variables
-#para evitar problemas en compilación tener cuidado las carpetas donde se
-#trabaja por lo que hay que guardarla de nuevo y ahora si se compila.
+
+**Sesión 3**: Fecha 23/02/26
+
+# Contenido del curso
+
++ Aplicar prueba no paramétrica "Correlación Spearman"
++ Aplicar prueba no paramétrica "Correlación Kendall"
++ Generar números aleatorios aplicando comando set.seed
++ Utilizar comando sample con set.seed
++ Utilizar comando ifelse para variable dicotómica
+
+
+
 
