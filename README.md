@@ -48,3 +48,12 @@
 + Aplicar comandos de estimacion de residuales, varianza, desviación estándar
 + Generar línea de tendencia en plot
 
+
+**Sesión 5**: Fecha 09/03/26
+
+# Contenido del curso (útlima clase)
+
++ Comparación de medias
++ Tipos de muestra: dependiente e independiente
++ Aplicar prueba Tstudent de una muestra
+
