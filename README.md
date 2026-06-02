@@ -37,5 +37,14 @@
 + Utilizar comando ifelse para variable dicotómica
 
 
+**Sesión 4**: Fecha 02/03/26
 
+# Contenido del curso
+
++ Descargar y activar complemento lm mediante library
++ Aplicar prueba ANOVA
++ Aplicar prueba paramétrica de heterocedasticidad "Breusch - Pragan" 
++ en modelo de regresión
++ Aplicar comandos de estimacion de residuales, varianza, desviación estándar
++ Generar línea de tendencia en plot
 
