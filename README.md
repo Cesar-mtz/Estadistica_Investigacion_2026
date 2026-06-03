@@ -6,23 +6,24 @@
 ## Matrícula: 1591819
 
 # Introducción
-Durante el curso de Estadística se desarrollaron actividades orientadas al 
-uso de herramientas computacionales para la gestión, procesamiento y análisis
-de datos. 
+📖 Durante el curso de Estadística se desarrollaron actividades orientadas al 
+  uso de herramientas computacionales para la gestión, procesamiento y análisis
+  de datos. 
 Inicialmente, se implementó el uso de GitHub mediante la creación de una 
-cuenta, un repositorio de trabajo y la sincronización de archivos, con el 
-propósito de facilitar la organización y respaldo de la información generada 
-durante el curso. Posteriormente, se abordó la importación de bases de datos,
-la aplicación de funciones para el resumen de información y la elaboración de
-gráficos exploratorios, complementando estas actividades con la evaluación de
-supuestos estadísticos mediante pruebas de normalidad y homogeneidad de varianzas.
+  cuenta, un repositorio de trabajo y la sincronización de archivos, con el 
+  propósito de facilitar la organización y respaldo de la información generada 
+  durante el curso. Posteriormente, se abordó la importación de bases de datos,
+  la aplicación de funciones para el resumen de información y la elaboración de
+  gráficos exploratorios, complementando estas actividades con la evaluación de
+  supuestos estadísticos mediante pruebas de normalidad y homogeneidad de varianzas.
+
 En etapas posteriores se trabajó con métodos de correlación no paramétrica y 
-con herramientas básicas de programación para la generación, selección y 
-clasificación de datos. Finalmente, se aplicaron procedimientos de análisis 
-inferencial, incluyendo análisis de varianza, evaluación de supuestos en 
-modelos lineales y comparación de medias mediante la prueba t de Student,
-consolidando conocimientos fundamentales para el análisis estadístico de 
-datos.
+  con herramientas básicas de programación para la generación, selección y 
+  clasificación de datos. Finalmente, se aplicaron procedimientos de análisis 
+  inferencial, incluyendo análisis de varianza, evaluación de supuestos en 
+  modelos lineales y comparación de medias mediante la prueba t de Student,
+  consolidando conocimientos fundamentales para el análisis estadístico de 
+  datos.
 
 # Contenido del curso
 
