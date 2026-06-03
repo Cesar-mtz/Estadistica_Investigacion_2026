@@ -10,6 +10,7 @@
 💡 Durante el curso de Estadística se desarrollaron actividades orientadas al 
   uso de herramientas computacionales para la gestión, procesamiento y análisis
   de datos. 
+  
 Inicialmente, se implementó el uso de GitHub mediante la creación de una 
   cuenta, un repositorio de trabajo y la sincronización de archivos, con el 
   propósito de facilitar la organización y respaldo de la información generada 
