@@ -6,7 +6,7 @@
 ## Matrícula: 1591819
 
 # Introducción
-📖 Durante el curso de Estadística se desarrollaron actividades orientadas al 
+💡 Durante el curso de Estadística se desarrollaron actividades orientadas al 
   uso de herramientas computacionales para la gestión, procesamiento y análisis
   de datos. 
 Inicialmente, se implementó el uso de GitHub mediante la creación de una 
@@ -25,7 +25,7 @@ En etapas posteriores se trabajó con métodos de correlación no paramétrica y
   consolidando conocimientos fundamentales para el análisis estadístico de 
   datos.
 
-# Contenido del curso
+📖 Contenido del curso
 
 **Sesión 1**: Fecha 26/01/26
 
@@ -37,7 +37,7 @@ En etapas posteriores se trabajó con métodos de correlación no paramétrica y
 
 **Sesión 2**: Fecha 16/02/26
 
-# Contenido del curso
+📖 Contenido del curso
 
 + Importar datos excel usando el comando read.cv
 + Aplicar función tapply
@@ -48,7 +48,7 @@ En etapas posteriores se trabajó con métodos de correlación no paramétrica y
 
 **Sesión 3**: Fecha 23/02/26
 
-# Contenido del curso
+📖 Contenido del curso
 
 + Aplicar prueba no paramétrica "Correlación Spearman"
 + Aplicar prueba no paramétrica "Correlación Kendall"
@@ -59,7 +59,7 @@ En etapas posteriores se trabajó con métodos de correlación no paramétrica y
 
 **Sesión 4**: Fecha 02/03/26
 
-# Contenido del curso
+📖 Contenido del curso
 
 + Descargar y activar complemento lm mediante library
 + Aplicar prueba ANOVA
@@ -71,7 +71,7 @@ En etapas posteriores se trabajó con métodos de correlación no paramétrica y
 
 **Sesión 5**: Fecha 09/03/26
 
-# Contenido del curso (útlima clase)
+📖 Contenido del curso (útlima clase)
 
 + Comparación de medias
 + Tipos de muestra: dependiente e independiente
