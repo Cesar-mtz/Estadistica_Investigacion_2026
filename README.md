@@ -66,7 +66,7 @@ En etapas posteriores se trabajó con métodos de correlación no paramétrica y
 + 📍 Aplicar prueba ANOVA
 + 📍 Aplicar prueba paramétrica de heterocedasticidad "Breusch - Pragan" 
    en modelo de regresión
-+ 📍 Aplicar comandos de estimacion de residuales, varianza, desviación estándar
++ 📍 Aplicar comandos de estimación de residuales, varianza, desviación estándar
 + 📍 Generar línea de tendencia en plot
 
 
