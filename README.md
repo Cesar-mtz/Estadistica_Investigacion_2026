@@ -6,7 +6,7 @@
 
 ## Matrícula: 1591819
 
-# Introducción
+# Introducción.
 💡 Durante el curso de Estadística se desarrollaron actividades orientadas al 
   uso de herramientas computacionales para la gestión, procesamiento y análisis
   de datos. 
@@ -78,3 +78,4 @@ En etapas posteriores se trabajó con métodos de correlación no paramétrica y
 + 📍 Comparación de medias
 + 📍 Tipos de muestra: dependiente e independiente
 + 📍 Aplicar prueba Tstudent de una muestra
+
