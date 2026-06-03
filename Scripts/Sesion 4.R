@@ -33,7 +33,7 @@ mean_y <- mean(datos$Precio_harina)
 cor.test(datos$Produccion_trigo, datos$Precio_harina)
 
 #descargar complemento lm
-
+# comando para verificar los supuestos de los modelos de regresión lineal
 library(lmtest)
 
 fit.lm <- lm(datos$Precio_harina ~ datos$Produccion_trigo)
@@ -62,10 +62,14 @@ y <- c(25, 30, 27, 40, 42, 40, 50, 45, 30, 25)
 
 
 
-#Prueba de breunch-pagan
+#Prueba de Breusch-Pagan
+# H0 (Hipótesis Nula): Los residuos son homocedásticos (Varianza constante).
+# H1 (Hipótesis Alternativa): Los residuos son heterocedásticos (Varianza NO constante).
+# Nota: Si p-valor > 0.05, se acepta H0 (Se cumple el supuesto del modelo lineal).
+# Requisito: Requiere haber ejecutado previamente un modelo lineal con 'lm()'
+
 bptest(fit.lm)
-#el resultado de esta prueba de p-value= 0.5641 indica si se cumple o no el 
-#criterio
+#el resultado de esta prueba de p-value= 0.5641 indica si se cumple o no el criterio
 
 #Agregar columna en la recta utilizadno Bo y B1
 datos$recta <- 74.1151 - 1.3537 * datos$Produccion_trigo
