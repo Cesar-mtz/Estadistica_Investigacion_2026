@@ -1,5 +1,6 @@
-# Estadistica en la Investigación 2026
-## Repositorio del programa de Doctorado Estadística en la Investigación DCMRN 
+# Curso Estadistica en la Investigación Científica Ene-Junio 2026
+## Repositorio del programa de Doctorado en Ciencias con Orientación en 
+## Manejo de Recursos Naturales DCMRN 
 
 ## César Aldair Martínez Gauna
 
@@ -76,4 +77,3 @@ En etapas posteriores se trabajó con métodos de correlación no paramétrica y
 + 📍 Comparación de medias
 + 📍 Tipos de muestra: dependiente e independiente
 + 📍 Aplicar prueba Tstudent de una muestra
-
