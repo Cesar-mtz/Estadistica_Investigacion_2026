@@ -79,4 +79,4 @@ En etapas posteriores se trabajó con métodos de correlación no paramétrica y
 + 📍 Aplicar prueba Tstudent de una muestra
 
 
-![Figura 1. Evidencia de contribución en GitHub](Captura.png)
+![Figura 1. Evidencia de contribución en GitHub](captura_pantalla.png)
