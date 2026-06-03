@@ -33,6 +33,10 @@ cor.test(resp$Rango_Tiempo, resp$Rango_Edad, method = "spearman")
 
 
 # Prueba de Kendall -------------------------------------------------------
+# H0 (Hipótesis Nula): No existe correlación entre las dos variables 
+# H1 (Hipótesis Alternativa): Existe correlación entre las dos variables
+# Nota: Si p-valor < 0.05, se rechaza H0 y se concluye que hay una correlación significativa
+# Uso: Ideal para datos ordinales, muestras pequeñas o cuando no hay normalidad
 
 tau <- data.frame(
   A = c(1,2,3,4,5,6),
@@ -44,7 +48,7 @@ cor.test(tau$A, tau$B, method = "kendall")
 # Correlación punto biserial  ---------------------------------------------
 
 set.seed(123)
-#datos dicticios y para que sea siempre los mismos datos, si no sería aleatorio
+#utilizar este comando cuando se busca que siempre los mismos datos, si no sería aleatorio
 
 #Número de observaciones
 n <-20
@@ -62,6 +66,8 @@ Resultado <-sapply(Horas_estudio, function (horas){
 
 
 # Crear data frame
+# estructura estándar en R que te permite construir una base de datos real sin que los datos se alteren o se corrompan.
+
 estudio <-data.frame(
   Estudiante = 1:n,
   Horas_estudio,
@@ -72,20 +78,15 @@ View(estudio)
 
 
 # Crear variable dicotómica: 1 = Aprobado, 0 = Reprobado
+## reducir una característica cualitativa a solo dos estados posibles (0 y 1)
 
 estudio$Resultado_bin <-ifelse(estudio$Resultado =="Aprobado", 1, 0)
 head(estudio)
 
 
 #correlacion
+## medir la fuerza y la dirección de la relación lineal entre dos variables, permitiéndote saber si los cambios en una variable están asociados con los cambios en la otra.
 
 cor.test(estudio$Horas_estudio, estudio$Resultado_bin, method = "pearson")
 estudio$Resultado_bin <- ifelse(estudio$Resultado == "Aprobado", 1, 0)
 head(estudio)
-
-
-
-
-
-
-
