@@ -68,7 +68,7 @@ En etapas posteriores se trabajó con métodos de correlación no paramétrica y
 + 📍 Aplicar prueba paramétrica de heterocedasticidad "Breusch - Pragan" 
    en modelo de regresión
 + 📍 Aplicar comandos de estimación de residuales, varianza, desviación estándar
-+ 📍 Generar línea de tendencia en plot.
++ 📍 Generar línea de tendencia en plot
 
 
 **Sesión 5**: Fecha 09/03/26
@@ -78,4 +78,3 @@ En etapas posteriores se trabajó con métodos de correlación no paramétrica y
 + 📍 Comparación de medias
 + 📍 Tipos de muestra: dependiente e independiente
 + 📍 Aplicar prueba Tstudent de una muestra
-
