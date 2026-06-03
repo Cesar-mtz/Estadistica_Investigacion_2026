@@ -79,5 +79,3 @@ En etapas posteriores se trabajó con métodos de correlación no paramétrica y
 + 📍 Tipos de muestra: dependiente e independiente
 + 📍 Aplicar prueba Tstudent de una muestra
 
-
-![Figura 1. Evidencia de contribución en GitHub](pantalla.png)
