@@ -2,7 +2,7 @@
 ## Repositorio del programa de Doctorado en Ciencias con Orientación en 
 ## Manejo de Recursos Naturales DCMRN 
 
-## César Aldair Martínez Gauna
+## César Aldair Martínez Gauna.
 
 ## Matrícula: 1591819
 
