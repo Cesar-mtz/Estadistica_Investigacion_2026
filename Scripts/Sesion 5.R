@@ -18,11 +18,11 @@
 
 #MUESTRA DEPENDIENTE: GRUPO DE INDIVIDUOS QUE SE COMPARA ANTES Y DESPUES (ESCALA
 #DE TIEMPO) #EJEMPLO PRODUCCION XAÑO 2024 - 2025 AGRICOLAS, FRUTALES
+
 ############################################################################3
 
 
-#LA PRUEBA DE Tstudent COMPARA DOS MEDIAS Y SEÑALA SI HAY DIFERENCIAS 
-#SIGNIFICATIVAS ENTRE ELLAS
+#LA PRUEBA DE Tstudent COMPARA DOS MEDIAS Y SEÑALA SI HAY DIFERENCIAS SIGNIFICATIVAS ENTRE ELLAS
 
 #características de las pruebas
 #datos normales, homogeneidad, n=30
@@ -58,9 +58,8 @@ boxplot(IE$IE ~ IE$Tratamiento,
 #trabaja por lo que hay que guardarla de nuevo y ahora si se compila
 
 
-
 # Pruebas de normalida ----------------------------------------------------
-#Safiro y Kormogorof
+#Saphiro y Kolmogorov
 
 shapiro.test(IE$IE)
 
@@ -80,22 +79,21 @@ hist(IE$IE,
 t.test(IE$IE ~ IE$Tratamiento, var.equal =T)
 
 
-#INTERVAL DE CONFIANZA: DONDE EXISTE UN VALOR ESTA DENTRO DEL RANGO PARA SABER
-#SI ES NORMAL O NO
+#INTERVALO DE CONFIANZA: DONDE EXISTE UN VALOR ESTA DENTRO DEL RANGO PARA SABER SI ES NORMAL O NO
 
 #var.equal =T (no importa si alguno de tus datos es mayor o no  que el otro)
 
 
 t.test(IE$IE ~ IE$Tratamiento, var.equal =T,
        alternative= "greater")
-#con este comando es para 1 sola cola cuando ya estas diciendo en tu hipotesis
-#mayor que
+#con este comando es para 1 sola cola cuando ya estas diciendo en tu hipotesis que es mayor que
 
 
 t.test(IE$IE ~ IE$Tratamiento, var.equal =T,
        alternative= "less")
 
-#diferencia greater y less (depende de como lo vayas a plantear en la hipotesis)
+#diferencia greater y less (depende de como lo vayas a plantear en la hipótesis)
+
 ##############################################################################
 
 #Prueba de T una muestra
@@ -110,13 +108,5 @@ Ctrl <- subset(IE$IE, IE$Tratamiento == "Ctrl")
 Fert <- subset(IE$IE, IE$Tratamiento != "Ctrl")
 
 t.test(Ctrl, Fert, paired = T)
-
-
-
-
-
-
-
-
 
 

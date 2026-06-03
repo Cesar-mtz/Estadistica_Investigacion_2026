@@ -40,14 +40,21 @@ boxplot(IE$IE ~ IE$Tratamiento,
 
 
 # Pruebas de normalida ----------------------------------------------------
-#Safiro y Kormogorof
+#Saphiro y Kolmogorov
 
 shapiro.test(IE$IE)
+
+# H0 (Hipótesis Nula): Los datos siguen una distribución normal.
+# H1 (Hipótesis Alternativa): Los datos NO siguen una distribución normal.
+# Nota: Si p-valor > 0.05, se asume normalidad.
 
 # Homogeneidad de varianza ------------------------------------------------
 
 bartlett.test(IE$IE ~ IE$Tratamiento)
-
+# H0 (Hipótesis Nula): Las varianzas son iguales entre los grupos.
+# H1 (Hipótesis Alternativa): Al menos un grupo tiene una varianza distinta.
+# Nota: Si p-valor > 0.05, se asume homocedasticidad (varianzas iguales).
+# Requisito: Los datos de los grupos deben seguir una distribución normal.  
 
 hist(IE$IE,
      col = "red",
@@ -55,5 +62,3 @@ hist(IE$IE,
      main = "",
      ylab ="Frecuencia",
      xlab = "Variable IE")
-
-     
