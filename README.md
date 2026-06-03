@@ -9,7 +9,7 @@
 # Introducción.
 💡 Durante el curso de Estadística se desarrollaron actividades orientadas al 
   uso de herramientas computacionales para la gestión, procesamiento y análisis
-  de datos. 
+  de datos
   
 Inicialmente, se implementó el uso de GitHub mediante la creación de una 
   cuenta, un repositorio de trabajo y la sincronización de archivos, con el 
@@ -78,3 +78,6 @@ En etapas posteriores se trabajó con métodos de correlación no paramétrica y
 + 📍 Comparación de medias
 + 📍 Tipos de muestra: dependiente e independiente
 + 📍 Aplicar prueba Tstudent de una muestra
+
+
+![Figura 1. Gráfica de contribución de GitHub](imagen_github.png)
