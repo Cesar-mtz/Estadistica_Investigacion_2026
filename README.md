@@ -73,7 +73,7 @@ En etapas posteriores se trabajó con métodos de correlación no paramétrica y
 
 📖 Contenido del curso (útlima clase)
 
- +📍 Comparación de medias
++ 📍 Comparación de medias
 + 📍 Tipos de muestra: dependiente e independiente
 + 📍 Aplicar prueba Tstudent de una muestra
 
